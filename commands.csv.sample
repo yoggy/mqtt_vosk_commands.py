@@ -1,0 +1,5 @@
+#コマンド,#応答文,#送信先トピック,#送信メッセージ
+エアコンつけて,エアコンつけます,device/aircon/on,
+エアコン消して,エアコンけします,device/aircon/off,
+扇風機つけて,扇風機つけます,device/atomsocket0001,on
+扇風機消して,扇風機消します,device/atomsocket0001,off

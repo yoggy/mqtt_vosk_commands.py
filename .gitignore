@@ -1,0 +1,8 @@
+*~
+*.swp
+.DS_Store
+log*
+
+config.yaml
+commands.csv
+vosk-model*

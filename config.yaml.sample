@@ -1,0 +1,18 @@
+mqtt_host: iot.eclipse.org
+mqtt_port: 1883
+mqtt_use_auth: false
+mqtt_username: username
+mqtt_password: password
+mqtt_speach_topic: aquestalk/speach
+
+sound_device_id: 1
+sampling_rate: 16000
+sampling_block_size: 4000
+
+model_directory: vosk-model-ja-0.22
+
+wake_words:
+  - オッケーグーグル
+  - アレクサ
+
+sorry_sentence: すみません、よくわかりません。。
