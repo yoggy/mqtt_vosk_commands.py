@@ -47,7 +47,7 @@ q = queue.Queue()
 
 def callback(indata, frames, time, status):
     if status:
-        logging.error(status, file=sys.stderr)
+        logging.error(status)
     q.put(bytes(indata))
 
 #
